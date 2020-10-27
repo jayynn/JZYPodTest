@@ -1,0 +1,22 @@
+{
+  "name": "JZYPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of JZYPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiangzhenyuan/JZYPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiangzhenyuan": "jiangzhenyuan@corp.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/jiangzhenyuan/JZYPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JZYPodTest/Classes/**/*"
+}

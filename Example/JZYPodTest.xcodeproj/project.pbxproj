@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14E8D23FC2655AD1C12C3509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14E8D23FC2655AD1C12C3509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5066BDFF048CC728B73139F1 /* Pods-JZYPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYPodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JZYPodTest_Tests/Pods-JZYPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5212E30AAFF98FA944B4FEE8 /* Pods-JZYPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-JZYPodTest_Tests/Pods-JZYPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53A270860B871626FC6D5596 /* Pods_JZYPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZYPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D309AAAC58AD37009FD79E /* Pods_JZYPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZYPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92DCEB0A2D24099F97D07385 /* JZYPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JZYPodTest.podspec; path = ../JZYPodTest.podspec; sourceTree = "<group>"; };
+		92DCEB0A2D24099F97D07385 /* JZYPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JZYPodTest.podspec; path = ../JZYPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9EAFA20B8A44358707CF56D /* Pods-JZYPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-JZYPodTest_Example/Pods-JZYPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EC738AA19F2AE7A6FC5F7FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC738AA19F2AE7A6FC5F7FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F8EBC5F74AB3CB164647BA61 /* Pods-JZYPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYPodTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-JZYPodTest_Example/Pods-JZYPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				5066BDFF048CC728B73139F1 /* Pods-JZYPodTest_Tests.debug.xcconfig */,
 				5212E30AAFF98FA944B4FEE8 /* Pods-JZYPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

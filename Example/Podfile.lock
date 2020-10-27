@@ -1,0 +1,16 @@
+PODS:
+  - JZYPodTest (0.1.0)
+
+DEPENDENCIES:
+  - JZYPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  JZYPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JZYPodTest: a2df807e1eec32f42297f0d3da44bfb1ebf46f20
+
+PODFILE CHECKSUM: 3a5a71f2564b26ab840310d2c13a85734da4748d
+
+COCOAPODS: 1.9.3

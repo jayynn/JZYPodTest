@@ -1,0 +1,6 @@
+framework module JZYPodTest {
+  umbrella header "JZYPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
